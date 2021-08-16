@@ -3,7 +3,7 @@
     always_run_script = true
     browser = /usr/bin/google-chrome
     class = Dunst
-    dmenu = /usr/bin/dmenu -i -nb {background} -nf {color7} -sb {color7} -sf {background}
+    dmenu = "/usr/bin/dmenu -nb '{background}' -nf '{color7}' -sb '{color7}' -sf '{background}'"
     ellipsize = middle
     follow = mouse
     font = Monospace 8
@@ -22,7 +22,7 @@
     indicate_hidden = yes
     line_height = 0
     markup = full
-    max_icon_size = 14
+    max_icon_size = 18
     monitor = 0
     notification_height = 5
     padding = 10
