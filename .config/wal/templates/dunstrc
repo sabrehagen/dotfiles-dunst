@@ -3,7 +3,7 @@
     always_run_script = true
     browser = /usr/bin/google-chrome
     class = Dunst
-    dmenu = /usr/bin/dmenu -p dunst:
+    dmenu = /usr/bin/dmenu -i -nb {background} -nf {color7} -sb {color7} -sf {background}
     ellipsize = middle
     follow = mouse
     font = Monospace 8
