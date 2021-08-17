@@ -1,13 +1,12 @@
 [global]
     alignment = left
-    always_run_script = true
+    always_run_script = false
     browser = /usr/bin/google-chrome
     class = Dunst
-    dmenu = "/usr/bin/dmenu -nb '{background}' -nf '{color7}' -sb '{color7}' -sf '{background}'"
+    dmenu = "~/.config/dunst/dmenu-proxy.sh -nb '{background}' -nf '{color7}' -sb '{color7}' -sf '{background}'"
     ellipsize = middle
     follow = mouse
-    font = Monospace 8
-    force_xinerama = false
+    font = Monospace 9
     format = "<b>%s</b>\n%b"
     frame_color = "{color13}"
     frame_width = 3
@@ -15,7 +14,7 @@
     hide_duplicate_count = false
     history_length = 20
     horizontal_padding = 12
-    icon_path = ~/.config/dunst/icons
+    icon_path = /home/jackson/.config/dunst/icons
     icon_position = left
     idle_threshold = 300
     ignore_newline = no
@@ -26,12 +25,13 @@
     monitor = 0
     notification_height = 5
     padding = 10
+    progress_bar = true
     separator_color = frame
     separator_height = 2
     show_age_threshold = 60
-    show_indicators = yes
+    show_indicators = no
     shrink = no
-    sort = yes
+    sort = no
     stack_duplicates = false
     startup_notification = false
     sticky_history = yes
@@ -60,3 +60,7 @@
     background = "{background}"
     foreground = "{color7}"
     timeout = 0
+
+[context_handler]
+    summary = "*"
+    script = /home/jackson/.config/dunst/context-handler.sh
