@@ -50,10 +50,6 @@
     title = Dunst
     transparency = 0
     word_wrap = true
-    close = ctrl+space
-    close_all = ctrl+shift+space
-    history = ctrl+grave
-    context = ctrl+period
 
 [urgency_low]
     background = "{background}"
