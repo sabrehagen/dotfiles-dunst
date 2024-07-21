@@ -1,7 +1,7 @@
 [global]
     alignment = left
     always_run_script = false
-    browser = /usr/bin/google-chrome
+    browser = /usr/bin/thorium-browser
     class = Dunst
     dmenu = "~/.config/dunst/dmenu-proxy.sh -nb '{background}' -nf '{color7}' -sb '{color7}' -sf '{background}'"
     ellipsize = end
