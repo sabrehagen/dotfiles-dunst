@@ -70,4 +70,3 @@
 
 [context_handler]
     summary = "*"
-    script = /home/jackson/.config/dunst/context-handler.sh
