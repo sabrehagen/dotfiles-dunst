@@ -3,7 +3,7 @@
     always_run_script = false
     browser = /usr/bin/thorium-browser
     class = Dunst
-    dmenu = "~/.config/dunst/dmenu-proxy.sh -nb '{background}' -nf '{color7}' -sb '{color7}' -sf '{background}'"
+    dmenu = "~/.config/dunst/dmenu-proxy.sh -nb 'rgb:{background.xrgba}' -nf 'rgb:{color7.xrgba}' -sb 'rgb:{color7.xrgba}' -sf 'rgb:{background.xrgba}'"
     ellipsize = end
     follow = mouse
     font = Monospace 9
