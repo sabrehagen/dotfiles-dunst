@@ -11,7 +11,7 @@
     frame_color = "{color13}"
     highlight = "{color1}"
     frame_width = 3
-    width = 350
+    width = 420
     height = 400
     origin = top-right
     offset = 35x30

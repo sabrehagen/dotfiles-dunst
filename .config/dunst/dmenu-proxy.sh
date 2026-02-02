@@ -12,10 +12,10 @@ done
 
 DMENU_RESULT="$(dmenu "${args[@]}")"
 
-# If the action selected was "activate application" switch to the app
-if [ "$DMENU_RESULT" = "${DMENU_RESULT##Activate}" ]; then
+# If the action selected was "activate|view application" switch to the app
+if [ "$DMENU_RESULT" = "${DMENU_RESULT##Activate}" ] || [ "$DMENU_RESULT" = "${DMENU_RESULT##View}" ]; then
   APP_NAME=$(echo $DMENU_RESULT | sed -E 's/[^(]*\(([^)]*).*/\1/')
-  ~/.config/i3/move-to-next-window-of-type.sh $APP_NAME
+  $HOME/.config/i3/move-to-next-window-of-type.sh $APP_NAME
 fi
 
 # Pass result to dunst
