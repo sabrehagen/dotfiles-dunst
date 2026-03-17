@@ -24,7 +24,7 @@
     icon_position = left
     idle_threshold = 120
     ignore_newline = no
-    notification_limit = 7
+    notification_limit = 5
     indicate_hidden = yes
     line_height = 0
     markup = full
